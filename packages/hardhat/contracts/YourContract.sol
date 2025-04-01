@@ -30,7 +30,7 @@ contract YourContract is ERC721 {
 
     // Constructor: Called once on contract deployment
     // Check packages/hardhat/deploy/00_deploy_your_contract.ts
-    constructor(address _owner) ERC721("Get high", "HIGH") {
+    constructor(address _owner) ERC721("Flight Tracker", "FLIGHT") {
         owner = _owner;
     }
 
